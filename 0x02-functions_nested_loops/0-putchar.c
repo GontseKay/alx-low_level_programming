@@ -1,21 +1,16 @@
 #include "main.h"
 /**
- * main - print _putchar
- * is written by Gontse
- * Return: 0
+ * main - Entry point of the program
+ * Return: 0 success
  */
 
 int main(void)
 {
+	char str[] = "_putchar";
+	int i;
 
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	for (i = 0; i < 8; i++)
+		_putchar(str[i]);
 	_putchar('\n');
 	return (0);
 }
