@@ -5,7 +5,10 @@
  * @s: string
  * return: 0
  */
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1375f971097b8f2d8572eaf1c9213022c55d8126
 void print_rev(char *s)
 {
 	int longi = 0;
