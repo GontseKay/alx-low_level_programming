@@ -1,1 +1,1 @@
-Solutions for 0x06-pointers-arrays-strings
+Solutions to tasks for 0x06-More pointers, arrays and strings.
