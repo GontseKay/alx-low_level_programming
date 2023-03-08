@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _puts_recursion - is a function like puts();
- * @s: input
- * Return: always 0 (success)
+ * _puts_recursion - is a function that prints a string, followed by a new line.
+ * @s: string
+ * Return: no return.
  */
 void _puts_recursion(char *s)
 {
@@ -11,7 +11,6 @@ void _puts_recursion(char *s)
 		_putchar(*s);
 		_puts_recursion(s + 1);
 	}
-
 	else
 		_putchar('\n');
 }
